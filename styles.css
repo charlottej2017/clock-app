@@ -65,5 +65,5 @@ body {
   opacity: 0.5;
   font-weight: 600;
   display: inline-block;
-  transform: rotate(calc(30deg * var(--i)));
+  transform: rotate(calc(-30deg * var(--i)));
 }
