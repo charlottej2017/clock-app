@@ -14,6 +14,12 @@ body {
   background: #ffeddb;
 }
 
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   position: relative;
   background: #bf9270;
@@ -27,6 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .clock {
   position: relative;
@@ -118,4 +125,19 @@ body {
   border-radius: 50%;
   background: var(--clr);
   box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
+}
+
+/* digital clock style*/
+
+#time {
+  margin-bottom: 40px;
+  display: flex;
+  padding: 10px 20px;
+  font-size: 2em;
+  font-weight: 600;
+  border: 2px solid #ffeddb;
+  border-radius: 40px;
+  box-shadow: 10px 50px 70px rgb(227, 183, 160),
+    inset 5px 5px 10px rgb(227, 183, 160), inset 5px 5px 20px rgb(227, 183, 160),
+    inset -5px -5px 15px rgb(227, 183, 160);
 }
