@@ -14,10 +14,12 @@ body {
   background: #ffeddb;
 }
 
-.header {
+.header-container {
   position: relative;
-  display: flex;
-  justify-content: center;
+  color: #bf9270;
+  font-weight: 800;
+  margin-bottom: 560px;
+  margin-top: 60px;
 }
 
 .container {
