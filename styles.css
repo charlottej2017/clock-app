@@ -141,3 +141,17 @@ body {
     inset 5px 5px 10px rgb(227, 183, 160), inset 5px 5px 20px rgb(227, 183, 160),
     inset -5px -5px 15px rgb(227, 183, 160);
 }
+
+#time div {
+  position: relative;
+  width: 60px;
+  text-align: center;
+  font-weight: 500px;
+}
+
+#time div:nth-child(1)::after,
+#time div:nth-child(2)::after {
+  content: ":";
+  position: absolute;
+  right: -4px;
+}
