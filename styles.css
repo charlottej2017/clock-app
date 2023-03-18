@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap");
 * {
-  margin: 0;
+  margin: 10;
   padding: 0;
   box-sizing: border-box;
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -13,7 +13,6 @@ body {
   min-height: 100vh;
   background: #ffeddb;
 }
-
 
 .container {
   position: relative;
@@ -121,7 +120,20 @@ body {
   background: var(--clr);
   box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
 }
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.date {
+  font-size: 25px;
+  color: #fff;
+}
 
+.tag-line {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
 /* digital clock style*/
 
 #time {
